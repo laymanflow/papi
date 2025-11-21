@@ -1,0 +1,23 @@
+{
+  "name": "papi",
+  "version": "1.0.0",
+  "description": "Discord bot to be used and developed by members of George Porter World",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laymanflow/papi.git"
+  },
+  "author": "Jamie Layman + Friends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laymanflow/papi/issues"
+  },
+  "homepage": "https://github.com/laymanflow/papi#readme",
+  "dependencies": {
+    "discord.js": "^14.25.0",
+    "dotenv": "^17.2.3"
+  }
+}
