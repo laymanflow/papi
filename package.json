@@ -4,7 +4,9 @@
   "description": "Discord bot to be used and developed by members of George Porter World",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ./src/index.js",
+    "dc": "node ./src/deploy-commands.js"
   },
   "repository": {
     "type": "git",
