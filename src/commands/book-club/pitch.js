@@ -1,4 +1,4 @@
-// commands/addbook.js
+// commands/pitch.js
 const { SlashCommandBuilder } = require('discord.js');
 const session = require('./vote-session-data.js');
 
