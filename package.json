@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "start": "node ./src/index.js",
-    "dc": "node ./src/deploy-commands.js"
+    "dc": "node ./src/deploy-commands.js",
+    "heroku-postbuild": "npm run dc"
   },
   "repository": {
     "type": "git",
