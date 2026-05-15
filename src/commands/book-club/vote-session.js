@@ -64,7 +64,7 @@ module.exports = {
 
             const userId = interaction.user.id;
             const choices = interaction.options.getString('choices');
-            const ranked = choices.split(",").map(x => x.trim());
+            const ranked = choices.split(",").map(x => x.trim().toLowerCase());
 
             const invalid = ranked.filter(x => !session.submissions.includes(x));
             if (invalid.length)
