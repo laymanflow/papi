@@ -86,6 +86,8 @@ module.exports = {
             }
 
             const userId = interaction.user.id;
+            const currentVote = session.votes[userId] || [];
+            
             return interaction.reply({
                 content: `Voting is open!\n\n**Current submissions:**\n${formatSubmissions(session.submissions)}\n\n**Your current vote:**\n${voteSummary(currentVote)}`,
                 components: [new ActionRowBuilder().addComponents(buildVoteMenu(userId))],
