@@ -1,4 +1,4 @@
-//hold all necessary data for a book club voting session
+﻿//hold all necessary data for a book club voting session
 module.exports = {
     users: {},
     submissions: [],
